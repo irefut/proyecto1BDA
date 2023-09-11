@@ -1,0 +1,55 @@
+{
+    "Libro": [
+        {
+            "id_book": 1,
+            "title": "Cien a\u00c3\u00b1os de soledad",
+            "author": "SAMPLE",
+            "rating": 4,
+            "available": true
+        },
+        {
+            "id_book": 2,
+            "title": "1984",
+            "author": "SAMPLE",
+            "rating": 5,
+            "available": false
+        },
+        {
+            "id_book": 3,
+            "title": "El principito",
+            "author": "SAMPLE",
+            "rating": 4,
+            "available": true
+        }
+    ],
+    "Prestamo": [
+        {
+            "id_book": 1,
+            "id_user": 101,
+            "borrow_day": "2023-08-01",
+            "return_day": "2023-08-16",
+            "library": "Biblioteca Central"
+        },
+        {
+            "id_book": 2,
+            "id_user": 102,
+            "borrow_day": "2023-07-20",
+            "return_day": "2023-08-04",
+            "library": "Biblioteca Sur"
+        }
+    ],
+    "Usuario": [
+        {
+            "id_user": 101,
+            "name": "Juan P\u00c3\u00a9rez",
+            "debt": 0,
+            "campus": "Campus A"
+        },
+        {
+            "id_user": 102,
+            "name": "Mar\u00c3\u00ada Garc\u00c3\u00ada",
+            "debt": 0,
+            "campus": "Campus B"
+        }
+    ]
+}
